@@ -10,51 +10,58 @@
 </head>
 
 <body>
+
+    
     <form id="reg_form" action="">
         <div>
             <img id = "logo" src="images/gscc logo1.png" alt="">
         </div>
         <div id = "instruction">
-            <h3>Register on the LW GSCC Portal</h3>
+            <h3>VGSS Alumi Network</h3>
+            <p>Kindly Register</p>
         </div>
         <div>
-            <select name="title" id="title_select">
-                <option value="select">Select Title</option>
-                <option value="pastor">Pastor</option>
-                <option value="deacon">Deacon</option>
-                <option value="deaconess">Deaconess</option>
-                <option value="brother">Brother</option>
-                <option value="sister">Sister</option>
-
-            </select>
+            <input type="text" name="title" placeholder="Title">
         </div>
         <div>
             <input type="text" name="fName" placeholder="First Name">
         </div>
         <div>
-            <input type="text" name="lName" placeholder="Last Name">
+            <input type="text" name="sName" placeholder="Surname">
+        </div>
+        <div>
+            <input type="text" name="occupation" placeholder="Occupation">
+        </div>
+        <div>
+            <input type="text" name="rank" placeholder="Rank|Designation">
         </div>
         <div>
             <input type="email" name="email" placeholder="Email">
         </div>
         <div>
-            <input type="password" name="password" placeholder=" Password">
+            <input type="number" name="phone" placeholder="Phone Number 1">
         </div>
         <div>
-            <input type="password" name="cPassword" placeholder="Confirm Password">
+            <input type="number" name="phone" placeholder="Phone Number 2">
         </div>
-        <div id = "terms">
-            <p>
-                <input type="checkbox" name="terms" value="argee"> I agree to all
-                <a href="#">Terms</a>
-            </p>
+        <div>
+            <input type="text" name="year" placeholder="VGSS Year">
+        </div>
+        <div>
+            <select name="title" id="title_select">
+                <option value="select">Marital Status</option>
+                <option value="Single">Single</option>
+                <option value="Married">Married</option>
+            </select>
+        </div>
+        <div>
+            <input type="text" name="church" placeholder="Current Church">
+        </div>
+        <div>
+            <input type="text" name="year" placeholder="Designation In Church">
         </div>
         <div>
             <input type="submit" name="submit" value="SIGN UP">
-        </div>
-        <div id = "sign_in">
-            <P>Already have an account?</P>
-            <a href="#">Sign In</a>
         </div>
         
     </form>
