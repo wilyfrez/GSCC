@@ -26,7 +26,8 @@ form{
     border-radius: 20px;
    transform: translate(-50%, -50%);
    text-align: center;
-   margin-top: 180px;
+   margin-top: 200px;
+   margin-botto: 50px;
 }
 
 input, select{
